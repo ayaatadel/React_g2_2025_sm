@@ -1,2 +1,9 @@
 cdn ==> font aswoem ==> https://cdnjs.com/libraries/font-awesome
 ==> link font aswoem site ==> https://fontawesome.com/
+
+====================================>
+git hub clone ==> 
+git clone https://github.com/ayaatadel/React_g2_2025_sm.git
+
+============> pull new code ==>
+open file of repo ==> git clone origin master
