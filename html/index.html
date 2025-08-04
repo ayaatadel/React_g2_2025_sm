@@ -1,0 +1,257 @@
+<!--  Html
+  
+<>  ===> open closing tag  ==>  <tagname> content </tagname>
+==> self closing tag <tagname/>
+
+tag ==> attribute ==> 
+public attibute  ==> id , class , name , width , height
+element attibute   ==> img (src)
+====> comment 
+elements ==> inline element  ==. width = content
+elements ==> block element  => width of site
+
+==>
+self study :: whatsap===> 
+-->
+
+<!-- root element -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 1 Html</title>
+    <style>
+      #p_span {
+        color: rgb(20, 17, 159);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- headings -->
+    <!-- <h1 id="target">header1</h1>
+    <h2>header</h2>
+    <h3>header</h3>
+    <h4>header</h4>
+    <h5>header</h5>
+    <h6>header</h6>
+    <hr />
+    <p>p</p>
+    <p>p</p>
+    <p>p</p>
+    <p>p</p>
+    <p>p</p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Asper iores nobis
+    </p> -->
+
+    <!-- <pre>
+        Lorem ipsum            dolor sit amet.
+    </pre>
+    <p>paragragh 2 <i>Lorem</i> ipsum dolor sit amet.</p>
+    <p>paragragh 2 <em>Lorem</em> ipsum dolor sit amet.</p>
+    <p>paragragh 5<sup>2</sup> ipsum dolor sit amet.</p>
+    <p>paragragh h<sub>2</sub>o ipsum dolor sit amet.</p>
+    <hr />
+    <p>paragragh 2 <b>Lorem</b> ipsum dolor sit amet.</p>
+    <p>paragragh 2 <mark> Lorem</mark> ipsum dolor sit amet.</p>
+    <p>paragragh 2 <u>Lorem</u> ipsum dolor sit amet.</p>
+    <p>paragragh 2 <del>Lorem</del> ipsum dolor sit amet.</p>
+    <p>paragragh 2 <strong>Lorem</strong> ipsum dolor sit amet.</p> -->
+    <!-- <a href="https://google.com" target="_blank">Google</a>
+    <hr />
+    <img
+      src="https://t4.ftcdn.net/jpg/01/05/90/77/360_F_105907729_4RzHYsHJ2UFt5koUI19fc6VzyFPEjeXe.jpg"
+      width="150"
+      height="100"
+      title="coffe_img"
+    />
+    <img
+      src="../imgs/liveServer.png"
+      alt="liveServer img"
+      width="150"
+      height="100"
+      title="server_img"
+    />
+
+    <a href="https://google.com" target="_blank">Google</a>
+    <a href="about.html" target="_blank">About</a>
+    <a href="#target" target="_blank">target</a>
+    <a href="about.html#target2" target="_blank">target2</a>
+
+    <span>sapan text</span>
+    <p id="p_span">sapan <span style="color: red">text</span></p>
+    <span>sapan text</span>
+    <br />
+    <span>sapan text</span>
+
+    <a href="tel:+021025920741">call us</a>
+    <br />
+    <a
+      href="mailto:mahmoud@gmail.com?subject=feedback&cc=ayaat@gmail.com&bcc=ahmed@gmail.com"
+      >FeedBack</a
+    >
+    <br />
+    <a href="http://">conatct us </a>
+    <br />
+    <hr /> -->
+    <!-- =================================== -->
+
+    <!-- 
+list types
+ordered list
+unordered list
+description list
+ -->
+
+    <!-- <ol type="1" start="5">
+      <li>Html</li>
+      <li>css</li>
+      <li>Js</li>
+    </ol>
+
+    <ul type="square">
+      <li>bootstrap</li>
+      <li>react</li>
+      <li>angular</li>
+    </ul>
+
+    <dl>
+      <dt>Front End</dt>
+      <dd>html</dd>
+      <dd>Css</dd>
+      <dt>Back End</dt>
+      <dd>Php</dd>
+      <dd>laravel</dd>
+    </dl> -->
+    <hr />
+    <!-- tabel -->
+
+    <table border="1px">
+      <!-- table row -->
+
+      <thead>
+        <!-- data -->
+        <th>Id</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>salary</th>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>mohammed</td>
+          <td>20</td>
+          <td>2000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>nada</td>
+          <td>25</td>
+          <td>2000</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>sara</td>
+          <td>27</td>
+          <td>2000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td colspan="2">Total Salary</td>
+        <td colspan="2">6000</td>
+      </tfoot>
+    </table>
+
+    <hr />
+    <!-- <form action="about.html" method="post">
+        <label for="name">User Name</label>
+      <input
+        name="name"
+        type="text"
+        id="name"
+        placeholder=" Enter your name"
+        minlength="3"
+        maxlength="12"
+      />
+
+      <br />
+       <label for="password">User password</label>
+      <input
+      <input
+        name="password"
+        type="password"
+        placeholder=" Enter your password"
+      />
+      <br />
+       <label for="age">User age</label>
+      <input
+      <input
+        name="age"
+        type="number"
+        placeholder=" Enter your age"
+        min="18"
+        max="60"
+      />
+      <br />
+       <label for="color">User color</label>
+      <input
+      <input type="color" name="color" id="" />
+      <br />
+       <label for="BD">User BD</label>
+      <input
+      <input type="date" name="BD" id="" />
+      <br />
+       <label for="cv">User cv</label>
+      <input
+      <input type="file" name="cv" id="" />
+      <br />
+       <label for="gender">User gender</label>
+     
+      <label for="male">male</label>
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="female">female</label>
+      <input type="radio" name="gender" id="female" value="female" />
+
+      <br>
+      <label for="">Skills</label>
+      <br>
+
+      <label for="css">Css</label>
+      <input type="checkbox" name="skills" id="" value="css">
+
+      <label for="html">html</label>
+      <input type="checkbox" name="skills" id="" value="html">
+      <label for="js">js</label>
+      <input type="checkbox" name="skills" id="" value="Js">
+      <br>
+      <label for="address">City</label>
+      <select name="address" id="adress" >
+
+        <option  name="address" value="city" disabled selected>choose your city</option>
+        <option  name="address" value="sadat">sadat</option>
+        <option  name="address" value="shohada">shohada</option>
+        <option  name="address" value="shebin">shebin</option>
+        
+    
+    </select>
+      <input type="submit" value="submit" />
+    </form> -->
+<!-- <a href="https:google.com " target="_blank">  <img src="https://t4.ftcdn.net/jpg/01/05/90/77/240_F_105907729_4RzHYsHJ2UFt5koUI19fc6VzyFPEjeXe.jpg" width="20px" height="20px" alt=""></a> -->
+
+<hr>
+<div>
+    <img width="50px" height="50" src="imgs/liveServer.png" alt="">
+  <p>Lorem ipsum dolor sit amet.</p>
+  <button>Buy</button>
+</div>
+<hr>
+<div >
+    <img width="50px" height="50" src="https://t4.ftcdn.net/jpg/01/05/90/77/240_F_105907729_4RzHYsHJ2UFt5koUI19fc6VzyFPEjeXe.jpg" alt="">
+  <p>Lorem ipsum dolor sit amet.</p>
+  <button>Buy</button>
+</div>
+  </body>
+</html>
