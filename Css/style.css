@@ -1,0 +1,111 @@
+ /* p{
+    color:green;
+    background-color: beige;
+    text-align: center; */
+    /* text-decoration: underline overline line-through; */
+    /* text-decoration: none; */
+    /* text-decoration-color:blue ; */
+    /* text-decoration-style:none ; */
+    /* -moz-text-decoration-color:blue ;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5px;
+
+
+
+} */
+
+/* a{
+    text-decoration: none;
+}  */
+
+/* div{
+    background-color: teal;
+    color: white;
+    height: 50px; */
+    /*toprightbottomleft*/
+    /* padding: 5px  10px 3px 2px; */
+    /* padding-top:12px;
+    margin: 10px; */
+    /* width: 33%;
+    height: 50px;
+    display: inline-block; */
+    /* border: 1px solid black;
+    border-radius:1px  5px 15px 20px;
+    -webkit-border-radius:1px  5px 15px 20px;
+    -moz-border-radius:1px  5px 15px 20px;
+    -ms-border-radius:1px  5px 15px 20px;
+    -o-border-radius:1px  5px 15px 20px; */
+/* }
+*{ */
+/* background-color: black; */
+/* padding: 0;
+margin: 0;
+} */
+/* 
+body{
+    background-color: white;
+} */
+/* span{
+    color: white;
+    background-color: teal;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid red;
+    border-radius: 10px;
+   
+} */
+ /* html{
+    font-size: 30px;
+ } */
+/* 
+div{
+    background-color: rgb(124, 124, 164);
+    color: white;
+    font-size: 50px; */
+    /* width: 50vw;
+    height: 50vh; */
+/* } */
+/* 
+p{
+    font-size: 50%;
+    color:blue
+}
+
+#p1{
+    color: green;
+}
+@font-face {
+    font-family:online-font ;
+    src: url(./fonts/PlaywriteAUQLD-VariableFont_wght.ttf);
+} */
+/* .pg{
+    color:yellow; */
+      /* font-family: "Playwrite AU QLD", cursive; */
+      /* font-family: 'online-font';
+      word-spacing: 5px;
+      line-height: 10px;
+      letter-spacing: 5px;
+
+
+} */
+
+
+
+
+
+body{
+    /* background-image: url(./imgs/sm-bg.webp); */
+    /* background-image: url(./imgs/bg.jpg); */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: no-repeat; */
+    /* background-position:   top; */
+    /* background-size: cover; */
+    /* background-size: 100% ; */
+    /* background-size: contain ; */
+}
+
+

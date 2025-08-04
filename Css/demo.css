@@ -1,0 +1,99 @@
+/* .first, .second, .third {
+
+    color: white;
+  
+
+} */
+
+/* .clear {
+    clear: both;
+} */
+
+/* .parent {
+    margin-top: 10px;
+    width: 70%;
+    position:relative;
+    background-color: teal;
+    height: 300px;
+     
+} */
+
+/* .first {
+    background-color: red;
+     width: 50%;
+     position: absolute;
+     z-index: 10;
+} */
+/* body{
+    height: 2000px;
+} */
+
+/* .second {
+    background-color: yellow; */
+     /* width: 50%; */
+     /* position:sticky;
+     position:fixed; */
+
+     /* top:0px */
+     
+     /* position: absolute;
+     top:10px;
+     left:10px;
+     z-index:9;
+
+    
+
+    } */
+
+/* .third {
+    background-color: burlywood;
+     width: 50%;
+       position: absolute;
+       top:17px;
+       left:20px;
+
+} */
+
+/* .parent {
+.first{
+
+}
+.price{
+
+}
+.text{
+
+}
+
+} */
+
+.first img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* .parent div{
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+} */
+/* .parent{
+  
+    background-color: teal;
+    border: 1px solid red;
+}
+.second{
+    position: absolute;
+    top: 30px;
+    left:50px;
+} */
+
+.icon{
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+}

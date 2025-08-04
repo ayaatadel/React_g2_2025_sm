@@ -1,0 +1,51 @@
+===> CSS ==>   Cascading style sheet ==>
+ <style>
+        selcetor{
+            properity:value;
+        }
+
+    </style>
+
+
+    tag name ===> p{
+
+    }
+
+    id 
+    class 
+
+
+    ============> external ===> newFile.css
+    ===> style.css
+
+
+    ==============> box model 
+    content ==> 
+    padding ==>
+    margin ==>
+    border ==>
+
+    ===================>
+    inline ===> width ==> content
+    block ===>width ==> site 
+
+    =======================>
+    em==> relative parent px==> rem==> relative root
+
+    css==> specifity
+tag =>Selector Specificity: (0, 0, 1)
+inline ==> (1,0,0,0)
+id  ==>100
+class=>10
+
+===========================>
+display: none , ==> hidden ==> don't keep place
+visabilty :hidden ,==>keep place
+ opacity (0-1) ==> keep place
+background image 
+float 
+position
+z-index
+
+
+
