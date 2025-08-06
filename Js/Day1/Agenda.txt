@@ -1,0 +1,8 @@
+history of js 
+where js code written
+variables
+data types
+operators  ====> 
+control flow
+ternary operators
+communication with user
