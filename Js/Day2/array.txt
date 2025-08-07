@@ -1,0 +1,10 @@
+push
+unshift
+pop
+shift
+indexOf
+slice
+splice
+reverse
+concat
+at

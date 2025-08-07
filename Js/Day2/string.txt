@@ -1,0 +1,26 @@
+- length 
+- charAt(index) ==> str(index)
+- at(index)
+- charCodeAt(index)
+- indexOf ==> Returns the position of the first occurrence of a substring.
+- lastIndexOf
+- slice(strat , end)
+- subString(strat , end)
+- subStr(strat , end)
+- toLowerCase
+- toUpperCase
+- includes
+- stratWith
+- endWith
+- toString
+- concat
+- trim
+- trimStart
+- trimEnd
+- padStart
+- padEnd
+- repeat(counter)
+- replace('charin',"char enter")
+- replaceAll('charin',"char enter")
+- split
+

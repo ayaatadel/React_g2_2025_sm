@@ -1,0 +1,3 @@
+functions 
+string methods 
+array methods
