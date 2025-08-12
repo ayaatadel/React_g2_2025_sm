@@ -1,0 +1,88 @@
+// function test()
+// {
+//     console.log("test");
+    
+// }
+
+// var x=test;
+// console.log(x());
+
+
+=============================================
+// var trackName = "mearn track";
+// function great() {
+// 	var x = "ali";   // track= mearn || result =great()
+// 	trackName = "Dotnet track";    // dot error
+// 	console.log(trackName);
+// 	return "ITI";
+// }
+
+// var result = great();
+// console.log(x);  
+// console.log(trackName); 
+// console.log(result);  
+
+
+// ========================
+// var trackName = "mearn track";
+// function great() {   // track= mearn || res= great() => f=ali
+// 	console.log(fname);// undef mearn undefined 
+// 	var fname = "ali";
+// }
+
+// var result = great();
+// console.log(trackName); 
+// console.log(result);
+
+// // ====================
+// function sayHello(trackName) {
+// 	console.log("Hello ", trackName);
+// }
+ 
+// var greet = function (trackName) {
+// 	console.log("Welcome At ITI");
+// 	return sayHello(trackName);
+// };
+
+// console.log(greet("Mearn Track")); // 
+// // greet=fun  
+
+// // wl hello undefined
+
+//===================================================
+
+// var trackName = "mearn";
+// function great() {
+// 	console.log("Hello great func");
+// 	console.log(trackName);
+// 	return "ITI";
+// }
+// var result = great();
+// console.log(result); // t=mearn  || r=great() => hello  mearn iti
+
+//================================================
+// var trackName = "mearn track";
+// function great() {
+// 	var x = "ali";   
+//     console.log(x);  
+// 	 trackName = "Dotnet track";     
+// 	console.log(trackName);
+// 	return "ITI";
+// }
+// var result = great();
+// console.log(trackName); 
+// console.log(result); 
+
+// ========================
+// (function ()
+// {                // self invoked function
+// var x=10;    // IIFE ===> Immdeiately invoked function execute
+// console.log(x);
+
+// })();
+// (function ()
+// {
+// var x=5;
+// console.log(x);
+
+// })();

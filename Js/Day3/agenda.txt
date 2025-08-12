@@ -1,0 +1,24 @@
+== functions
+    == How js Engine execute function in memory
+    == Local Scope VS Global Scope
+    == Shadwing
+    == IIFE ==> immediately invoked function execute
+    == Object
+    == Math
+
+
+    ================>
+Js Engine ===> Execution context
+    Decleration phase 
+    execution phase 
+
+
+      Decleration phase 
+      1- create global exection context
+      2- create global Object called window
+      1- create special variabl called this refered to window
+      1- allocate memory for any variable with key word called var (Hoisting) 
+      1- Hoisting for function 
+
+
+      

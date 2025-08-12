@@ -1,0 +1,49 @@
+*{
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+ background-color: #d4cdcd;
+}
+
+.header {
+  background-color: #f4f4f4;
+  padding: 20px 0;
+  text-align: center;
+   margin: 5px;
+}
+
+#pg1, #pg2 {
+     margin: 5px;
+      /* background-color: #f4f4f4; */
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+span , a{
+    display: inline-block;
+    margin: 10px 0 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    color: brown;
+}
+.btn{
+    padding: 10px;
+    background-color: rgb(73, 8, 8);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.test{
+    color: rgb(98, 7, 7)
+}
+.newClass{
+    color: rgb(10, 202, 10);
+}
+.newClass2{
+    color: rgb(35, 94, 35);
+}

@@ -1,0 +1,8 @@
+==> DOM 
+1-select element
+2- change content of element
+3-change style
+4- deal with attributes
+5-create new element 
+===============
+Event ==> create event , use(fire)

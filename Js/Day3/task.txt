@@ -1,0 +1,39 @@
+var products = [
+    {
+        id: 1,
+        name: "Pc 1",
+        price: 100
+    },
+    {
+        id: 2,
+        name: "computer pc",
+        price: 200
+    },
+    {
+        id: 3,
+        name: "lab",
+        price: 300
+    }
+    ,
+    {
+        id: 4,
+        name: "mobile",
+        price: 300
+    }
+    ,
+    {
+        id: 5,
+        name: "mac pc",
+        price: 300
+    }
+];
+
+
+
+==> return all products that  has pc
+return on window 
+id : 
+name: 
+price:
+********************************
+
