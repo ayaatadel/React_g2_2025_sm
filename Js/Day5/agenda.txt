@@ -1,0 +1,64 @@
+==> DOM (Document Object Model)
+-- byName
+  -- create
+  -- before || after
+  -- append & appendChild
+  -- remove
+  -- TextNode
+
+=============>Event 
+-- element.onclick= fun(){}
+-- onEvent ==> onclick("display()")
+-- addEventListener ==> element.addEventListener('',())
+-- removeEvent
+-- e ==> e.target
+-- form => prevent default
+-- blur 
+-- foucs
+-- input
+-- Event Propagation ===> e.stopPropagation
+-- remove event
+===============> BOM (Browser Object Model)
+-- window ==> create(decleration Phase)->object global -> optional
+/**
+- open => var page=window.open 
+-->foucs => window.focus()
+- close =>window.close() || close() =>page.close()
+-- moveTo(x,y)
+-- moveBy(x,y) ==> +,-
+-- resizeTo(x,y)
+-- resizeBy(x,y)
+
+======> Asynchrounous Function => in window  => call BY Js Engine
+-- SetTimeOut   
+--SetInterval 
+-- clear Interval
+
+*/
+
+-- screen (search)
+-- location
+-- history
+-- navigator
+-- cookies  || local storage --> HTML5 
+=============> AJAX  ==> 
+status  :
+1 : uninitialized
+2: loading
+3: interactive
+4: completed
+=====================
+status 
+100 :  information
+200: success
+300:redirect
+400: client error
+500: server error
+
+
+===============>
+get  data : get 
+update  data : put || edit 
+delete data :delete
+send data :post
+
